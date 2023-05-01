@@ -15,6 +15,7 @@ public class Board_of_DirectorsModel {
 private Long Id;
 private String fileName;
 private String fileType;
+@Column(name="file")
 private byte [] file;
 
 
